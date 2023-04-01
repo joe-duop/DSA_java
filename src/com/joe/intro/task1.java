@@ -19,6 +19,7 @@ public class task1 {
     }
 
     public static int maxNumber(int[] arr){
+        //getting the biggest number in the list
         int max = arr[0];
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] > max) {
@@ -29,6 +30,7 @@ public class task1 {
     }
 
     public static double findAverage(int[] arr){
+        //getting the average of the numbers in the list
         int total=0;
         for (int i = 0; i < arr.length; i++) {
             total += arr[i];
@@ -37,6 +39,7 @@ public class task1 {
     }
 
     public static int[] copyToAnotherArray(int[] arr){
+        //copying the contents of an array to a new array.
         int[] newArray = new int[arr.length];
         for (int i = 0; i < arr.length; i++) {
             newArray[i] = arr[i];
